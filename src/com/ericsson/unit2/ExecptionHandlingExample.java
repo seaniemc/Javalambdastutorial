@@ -1,4 +1,4 @@
-package com.ericsson;
+package com.ericsson.unit2;
 
 import java.util.function.BiConsumer;
 

@@ -1,4 +1,4 @@
-package com.ericsson;
+package com.ericsson.unit1;
 
 /**
  * Created by smcgrath on 7/3/2017.

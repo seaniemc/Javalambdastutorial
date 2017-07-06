@@ -1,4 +1,4 @@
-package com.ericsson;
+package com.ericsson.unit1;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,6 +19,7 @@ public class Unit1Exercise {
         people.sort((p1, p2) -> p1.getLastNmae().compareTo(p2.getLastNmae()));
 
         people.forEach(System.out::println);
+
         System.out.println(" ");
         people.stream()
                 .filter(p -> p.getLastNmae().startsWith("C"))
